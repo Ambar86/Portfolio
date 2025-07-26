@@ -9,7 +9,7 @@ export const myProjects = [
       " Offers in-browser screen recording, direct video uploads, auto-generated transcripts, and management of public/private videos.",
       " Users sign in via Google OAuth, can record or upload videos, and then discover content through a searchable and filterable public library.",
     ],
-    href: "",
+    href: "https://snapcast-screen-recording-sharing-a.vercel.app/sign-in",
     logo: "",
     image: "/assets/projects/snap.jpg",
     tags: [
@@ -45,7 +45,7 @@ export const myProjects = [
       "Secure sign-up, sign-in, and OTP email verification protect user accounts and files.",
       "View file details and perform actions like renaming, downloading, deleting, and sharing.",
     ],
-    href: "",
+    href: "https://store-it-storage-management-app.vercel.app/sign-in",
     logo: "",
     image: "/assets/projects/storeit.png",
     tags: [
@@ -78,10 +78,9 @@ export const myProjects = [
       "This is a LMS SaaS app that allows users to create and interact with AI-powered tutors for interactive learning sessions, featuring user auth, subscriptions, and payments.",
     subDescription: [
       "It features AI voice agents that provide interactive tutoring sessions and can be customized by users.",
-      "The app includes secure user auth with Clerk, subscription management, and payment processing.",
       "It is built with a modern tech stack, including Next.js, Supabase, and Tailwind CSS, for a fast, scalable, and responsive user experience.",
     ],
-    href: "",
+    href: "https://talkdemy.vercel.app/",
     logo: "",
     image: "/assets/projects/lms.png",
     tags: [
@@ -109,23 +108,23 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "Ethereum based Marketplace Platform",
+    title: "Movie App",
     description:
-      "A decentralized e-commerce platform enabling users to list, buy, and transfer items securely on the Ethereum blockchain.",
+      "A responsive movie discovery app built with React, Appwrite, and Tailwind CSS that lets users browse, search, and view trending films from the TMDB API.",
     subDescription: [
-      "Users can list and purchase items directly without intermediaries using smart contracts.",
-      "Each item’s ownership is transparently tracked and transferred on-chain.",
-      "All transactions are recorded on Ethereum, ensuring trustless and tamper-proof operations.",
-      "A responsive React.js interface displays item listings and transaction statuses using live blockchain data.",
+      "A feature-rich Movie App where users can browse, search, and discover trending films.",
+      "It is built with a modern frontend stack using React.js, Vite, and Tailwind CSS",
+      "It uses Appwrite, an open-source Backend-as-a-Service, to handle data and other backend functions.",
+      "All movie information, like titles and posters, is fetched from the public TMDB API.",
     ],
-    href: "",
+    href: "https://movie-app-flame-ten.vercel.app/",
     logo: "",
-    image: "/assets/projects/ecom.png",
+    image: "/assets/projects/movie.png",
     tags: [
       {
         id: 1,
-        name: "Ethereum",
-        path: "/assets/logos/ethereum.svg",
+        name: "Next.js",
+        path: "/assets/logos/Next.js.svg",
       },
       {
         id: 2,
@@ -134,13 +133,13 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "Solidity",
-        path: "/assets/logos/solidity.svg",
+        name: "Vite.js",
+        path: "/assets/logos/vitejs.svg",
       },
       {
         id: 4,
-        name: "Node.js",
-        path: "/assets/logos/Node.js.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -155,7 +154,7 @@ export const myProjects = [
       "Participants enter the lottery by sending ETH, secured via a smart contract.",
       "All actions are executed on-chain, ensuring full transparency and decentralization.",
     ],
-    href: "",
+    href: "https://github.com/Ambar86/Decentralized-lottery-system",
     logo: "",
     image: "/assets/projects/lottery.png",
     tags: [
@@ -183,23 +182,23 @@ export const myProjects = [
   },
   {
     id: 6,
-    title: "Movie App",
+    title: "Ethereum based Marketplace Platform",
     description:
-      "A responsive movie discovery app built with React, Appwrite, and Tailwind CSS that lets users browse, search, and view trending films from the TMDB API.",
+      "A decentralized e-commerce platform enabling users to list, buy, and transfer items securely on the Ethereum blockchain.",
     subDescription: [
-      "A feature-rich Movie App where users can browse, search, and discover trending films.",
-      "It is built with a modern frontend stack using React.js, Vite, and Tailwind CSS",
-      "It uses Appwrite, an open-source Backend-as-a-Service, to handle data and other backend functions.",
-      "All movie information, like titles and posters, is fetched from the public TMDB API.",
+      "Users can list and purchase items directly without intermediaries using smart contracts.",
+      "Each item’s ownership is transparently tracked and transferred on-chain.",
+      "All transactions are recorded on Ethereum, ensuring trustless and tamper-proof operations.",
+      "A responsive React.js interface displays item listings and transaction statuses using live blockchain data.",
     ],
-    href: "",
+    href: "https://github.com/Ambar86/Ethereum-based-Marketplace-Platform",
     logo: "",
-    image: "/assets/projects/movie.png",
+    image: "/assets/projects/ecom.png",
     tags: [
       {
         id: 1,
-        name: "Next.js",
-        path: "/assets/logos/Next.js.svg",
+        name: "Ethereum",
+        path: "/assets/logos/ethereum.svg",
       },
       {
         id: 2,
@@ -208,13 +207,13 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "Solidity",
+        path: "/assets/logos/solidity.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Node.js",
+        path: "/assets/logos/Node.js.svg",
       },
     ],
   },
